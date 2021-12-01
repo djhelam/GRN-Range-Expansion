@@ -1,0 +1,24 @@
+N 	Initial population density per patch
+100
+lambda	 intrinsic growth rate Beverton-Holt model
+2
+alpha 	Intraspecific competition coefficient
+0.01
+t	 number of time steps in the burn in period
+20000
+R 	number of replicates
+50
+disp_prob	 dispersal probability if it cannot evolve
+0
+disp_mort	 dispersal costs
+0.1
+extinction_prob 	probability of random patch extinctions
+0
+Variance	standard deviation of mutation effects
+0.1
+mutation_prob	mutation rate
+1e-04
+width	niche width
+1
+slope	slope of external environmental gradient
+0.04

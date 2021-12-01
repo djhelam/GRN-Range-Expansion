@@ -1,0 +1,34 @@
+N	initial population density per patch
+100
+lambda intrinsic growth rate in Beverton-Holt model
+2
+alpha	intraspecific competition coefficient Beverton-Holt model
+0.01
+t	number of time steps in the burn in period
+20000
+R	number of replicates run
+50
+disp_prob	dispersal probability if it is fixed
+0
+disp_mort	dispersal costs
+0.1
+extinction_prob	probability of random patch extinction
+0
+Variance_min	standard deviation of mutation effects at the end of 5000 time steps
+0.1
+mutation_prob	mutation probability in the beginning of the simulation
+0.1
+mut_prob_min	mutation probability after 5000 time steps
+1e-04
+genetic_variation	standing genetic variation for the loci
+1
+variance_max	standard deviation of mutation effects at the beginning of the simulation
+0.1
+mut_slow	slow mutation rate
+0
+varslow	standard deviation of slow mutation rate
+0
+width	niche width
+1
+slope	slope of external environmental gradient
+0.04
